@@ -1,0 +1,232 @@
+/*
+Theme Name:  Stolen Sheep Stolen Theme
+Theme URI:   http://www.stolensheepdesign.com
+Description: A responsive parallax scrolling theme.
+Version:     1.0
+Author:      Bill Mauro
+Author URI:  http://www.stolensheepdesign.com
+*/
+
+
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('font/BEBAS___-webfont.eot');
+    src: url('font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/BEBAS___-webfont.woff') format('woff'),
+         url('font/BEBAS___-webfont.ttf') format('truetype'),
+         url('font/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body{
+ font-family: 'BebasRegular';
+	width:100%;
+	height:100%;
+}
+
+.navigation{
+	position:fixed;
+	z-index:1;
+	top:0px;
+	background-color: #292a27;
+	width: 100%;
+	height: 70px;
+}
+.navigation li{
+	font-family: 'BebasRegular';
+	font-size: 1.8em;
+	color: #edb600;
+	display: inline-block;
+	float: left;
+	margin-top: 17px;
+	margin-left: 20px;
+	z-index: 2;
+}
+
+.navigation li:hover,.active{
+	cursor:pointer;
+	color: #eee;
+}
+
+#header_logo {
+	float: left;
+	margin-top: 6px;
+	margin-left: 8px;}
+
+.slide {
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+.wrapper{
+	width:960px;
+	height:200px;
+	margin:0 auto;
+	position:relative;
+}
+
+.button{
+	display:block;
+	width:79px;
+	height:42px;
+	position:absolute;
+	bottom:0px;
+	left:47%;
+	background-image:url(../images/downarrow.png);
+	margin-bottom: 20px;
+}
+.button:hover{
+	cursor:pointer;
+}
+
+title {
+	background-color: #292a27;
+	color: #edb600;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.icon {width: 180px;
+	float: left;
+	margin: 0 15px;
+	padding-bottom: 15px;
+}
+
+.iconset {margin-left: 9%;}
+
+.iconset h2 {color: #edb600; text-align: center; font-family: 'Open Sans Condensed', sans-serif;}
+
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1{
+	background-color:#edb600;
+	padding-top: 1px;
+}
+
+#slide1 h1 {
+	text-indent: -9999px;
+	width: 300px;
+	height: 237px;
+	background: url(../images/stolensheepdesign.png);
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#logo {
+	position: fixed;
+	width: 190px;
+	height: 190px;
+	top: 50%;
+	left: 50%;
+	margin-top: -95px; /* Half img height */
+	margin-left: -95px; /* Half img width */
+	background: none;
+}
+
+#slot {position: absolute;
+		bottom: 0;
+		left: 50%;
+		margin-left: -125px; /* Half img width */
+}
+
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+	background: url(../images/bg_test.jpg);
+	background-size: cover;	}
+
+#intro {background-color: #292a27;
+	color: #edb600;
+border-radius: 10px;
+padding: 10px 25px;
+position: absolute;
+width: 400px;
+top: 120px;
+right: 30px;
+}
+
+
+/******************************
+ SLIDE 3 
+*******************************/
+
+#slide3 {
+	background-color: #292a27;
+	padding-top: 110px; 
+}
+/******************************
+ SLIDE 4 
+*******************************/
+#slide4{
+	background: url(../images/bg_door.jpg);
+	background-size: cover;
+}
+
+.bio {
+	width: 200px;
+	height: 450px;
+	background-color: #edb600;
+	float: left;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+/******************************
+ SLIDE 5 
+*******************************/
+
+#slide5{
+	background: url(../images/map_orange.jpg);
+	background-size: cover;
+}
+
+#contact_form {
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	padding: 25px;
+	width: 250px;
+	background: rgba(41, 42, 39, 0.95);
+	color: #edb600;
+	border-radius: 5px;
+}
+
+#contact_form input {
+	margin: 10px 0;
+	width: 175px;
+}
+
+#placemarker {
+	position: absolute;
+	left: 660px;
+	top: 195px;
+}
+
+/******************************
+ SLIDE 6 
+*******************************/
+
+#slide6{
+	background-image:url(../images/Zoom_Clear.jpg);
+	background-size: cover;
+}
+
+#first_icon, #second_icon, #third_icon, #fourth_icon, #fifth_icon {width: 18%; float: left;}
+
+/******************************
+FOOTER
+*******************************/
+
+#footer {width: 100%; height: 120px; background-color: #292a27;}
+#copyright {text-align: center; color: #a8a9ad; padding-top: 54px;}
