@@ -16,12 +16,12 @@
 <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.stellar.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/waypoints.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/slides.js"></script>
-<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slides.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/js.js"></script>
 
 <?php wp_head(); ?> 
 

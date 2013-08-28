@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <!--Welcome Page-->
  <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
     	<img class="button" data-slide="2" id="logo" title="click here, dummy" src="<?php echo get_template_directory_uri(); ?>/images/SSLogo.png"></img>
@@ -65,9 +67,4 @@ e-mail: <input type="text" name="email" value="you@example.com"><br>
   <img src="<?php echo get_template_directory_uri(); ?>/images/placemarker.png" alt="placemarker" id="placemarker" data-stellar-ratio="0.8">
 	</div><!--End Slide 5-->
 
-  <div id="footer">
-    <p id="copyright">&copy; &nbsp;&nbsp; 2013 - 2014 Stolen Sheep Design, LLC</p>
-  </div>
-
-</body>
-</html>
+  <?php get_footer(); ?>
